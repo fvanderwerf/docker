@@ -1,4 +1,4 @@
-FROM docker.io/fedora
+FROM docker.io/fedora:22
 
 RUN dnf install -y gcc
 RUN dnf install -y autoconf automake libtool
