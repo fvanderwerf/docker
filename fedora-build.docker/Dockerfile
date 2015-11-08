@@ -7,3 +7,4 @@ RUN dnf install -y check-devel
 RUN dnf install -y make
 RUN dnf install -y git
 RUN dnf install -y wget
+RUN dnf install -y bzip2
