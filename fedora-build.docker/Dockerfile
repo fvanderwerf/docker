@@ -22,7 +22,7 @@ RUN dnf install -y chrpath
 RUN dnf install -y ccache
 RUN dnf install -y perl-Data-Dumper
 RUN dnf install -y perl-Text-ParseWords
-RUN dnf install -y perl-Threads-Queue
+RUN dnf install -y perl-Thread-Queue
 RUN dnf install -y socat
 RUN dnf install -y findutils
 RUN dnf install -y which
