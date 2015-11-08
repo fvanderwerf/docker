@@ -26,4 +26,5 @@ RUN dnf install -y perl-Thread-Queue
 RUN dnf install -y socat
 RUN dnf install -y findutils
 RUN dnf install -y which
+RUN dfn install -y cpio
 
