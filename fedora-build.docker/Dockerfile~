@@ -20,10 +20,9 @@ RUN dnf install -y gcc-c++
 RUN dnf install -y texinfo
 RUN dnf install -y chrpath
 RUN dnf install -y ccache
-RUN dnf install -y perl-Data-Dumper
-RUN dnf install -y perl-Text-ParseWords
-RUN dnf install -y perl-Threads-Queue
-RUN dnf install -y socat
-RUN dnf install -y findutils
-RUN dnf install -y which
+RUN dfn install -y perl-Data-Dumper
 
+
+
+     ccache perl-Data-Dumper perl-Text-ParseWords perl-Thread-Queue socat \
+     findutils which SDL-devel xterm
